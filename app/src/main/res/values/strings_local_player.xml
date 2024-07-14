@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="up_next">Up next</string>
+    <string name="action_grant">Grant</string>
+    <string name="permissions_denied">Permissions denied.</string>
+    <string name="permission_external_storage_denied">Permission to access external storage denied.</string>
+    <string name="added_title_to_playing_queue">"Added one song to the playing queue."</string>
+    <string name="added_x_titles_to_playing_queue">Added %1$d songs to the playing queue.</string>
+    <string name="deleted_x_songs">Deleted %1$d songs.</string>
+    <string name="song">Song</string>
+    <string name="songs">Songs</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="genres">Genres</string>
+    <string name="playlists">Playlists</string>
+    <string name="action_play_next">Play next</string>
+    <string name="action_play">Play</string>
+    <string name="action_play_pause">Play/Pause</string>
+    <string name="action_previous">Previous</string>
+    <string name="action_next">Next</string>
+    <string name="action_add_to_playing_queue">Add to playing queue</string>
+    <string name="action_remove_from_playing_queue">Remove from playing queue</string>
+    <string name="action_delete_from_device">Delete from device</string>
+    <string name="x_selected">%1$d selected</string>
+    <string name="action_clear_playing_queue">Clear playing queue</string>
+    <string name="action_save_playing_queue">Save playing queue</string>
+    <string name="delete_song_title">Delete</string>
+    <string name="delete_song_x"><![CDATA[Are you sure you want to delete the selected track? <b>%1$s</b>?]]></string>
+    <string name="delete_playlist_x">Are you sure you want to delete the selected playlist? %1$s</string>
+    <string name="remove_playlist_x">Are you sure you want to remove the selected song? %1$s</string>
+    <string name="delete_action">Delete</string>
+    <string name="playing_notification_name">Playing notification</string>
+    <string name="playing_notification_description">The playing notification provides actions for play/pause etc.</string>
+    <string name="audio_focus_denied">Audio focus denied.</string>
+    <string name="playlist_is_empty">Playlist is empty</string>
+    <string name="download_song_x"><![CDATA[Download <b>%1$s</b> success!]]></string>
+</resources>

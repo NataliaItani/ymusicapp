@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- AdMob App Id -->
+    <string name="app_id" translatable="false">ca-app-pub-7044447102338979~4872059165</string>
+    <!-- Banner -->
+    <string name="banner_ad" translatable="false">ca-app-pub-7044447102338979/2809922470</string>
+    <!-- Interstitial -->
+    <string name="interstitial_ad" translatable="false">ca-app-pub-7044447102338979/5052942430</string>
+    <!-- Open app ad -->
+    <string name="open_app_ad" translatable="false">ca-app-pub-7044447102338979/2235207403</string>
+    <!-- Native ad -->
+    <string name="native_ad" translatable="false">ca-app-pub-7044447102338979/2043635717</string>
+    <!-- Rewarded ad -->
+    <string name="rewarded_ad" translatable="false">ca-app-pub-7044447102338979/2702859699</string>
+	
+	<!-- Applovin Ads -->
+    <!-- SDK key -->
+    <string name="applovin_sdk_key" translatable="false">YOUR_SDK_KEY_HERE</string>
+    <!-- Interstitial -->
+    <string name="applovin_banner_ad" translatable="false">YOUR_AD_UNIT_ID</string>
+    <!-- Interstitial -->
+    <string name="applovin_interstitial_ad" translatable="false">YOUR_AD_UNIT_ID</string>
+    <!-- Native -->
+    <string name="applovin_native_ad" translatable="false">YOUR_AD_UNIT_ID</string>
+	
+</resources>

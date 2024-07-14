@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="app_name" translatable="false">yMusic</string>
+    <!-- Theme -->
+    <string name="theme_title">Theme</string>
+    <string name="light_theme_title">Light theme</string>
+    <string name="dark_theme_title">Dark theme</string>
+    <string name="color_theme_title">Color theme</string>
+
+    <!-- Notification -->
+    <string name="notification_channel_id" translatable="false">yMusic</string>
+    <string name="notification_channel_name">Popup Player</string>
+    <string name="notification_channel_description">Notifications for Popup Player</string>
+    <string name="general_channel_name">General</string>
+    <string name="download_channel_name">Download</string>
+    <string name="notification_action_0_title">First action button</string>
+    <string name="notification_action_1_title">Second action button</string>
+    <string name="notification_action_2_title">Third action button</string>
+    <string name="notification_action_3_title">Fourth action button</string>
+    <string name="notification_action_4_title">Fifth action button</string>
+    <string name="notification_actions_summary">Edit each notification action below by tapping on it. Select up to three of them to be shown in the compact notification by using the checkboxes on the right.</string>
+    <string name="notification_actions_at_most_three">You can select at most three actions to show in the compact notification!</string>
+    <string name="notification_action_repeat">Repeat</string>
+    <string name="notification_action_shuffle">Shuffle</string>
+    <string name="notification_action_buffering">Buffering</string>
+    <string name="notification_action_nothing">Nothing</string>
+
+    <!--Zero don't get selected (in some languages) as it is not a "special case" for android-->
+    <string name="no_subscribers">No followers</string>
+    <plurals name="subscribers">
+        <item quantity="one">%s follower</item>
+        <item quantity="other">%s followers</item>
+    </plurals>
+
+    <string name="no_tracks">No tracks</string>
+    <plurals name="tracks">
+        <item quantity="one">%s tracks</item>
+        <item quantity="other">%s tracks</item>
+    </plurals>
+
+    <string name="short_thousand">K</string>
+    <string name="short_million">M</string>
+    <string name="short_billion">B</string>
+
+    <!-- Downloads -->
+    <string name="charset_most_special_characters_value" translatable="false">[\\n\\r|\\?*&lt;":&gt;/']+</string>
+
+    <!-- Bottom Navigation Tabs -->
+    <string name="trending">Trending</string>
+    <string name="discover">Discover</string>
+    <string name="library">Library</string>
+
+    <!-- Play Queue -->
+    <string name="title_activity_popup_player">Popup Player</string>
+    <string name="play_queue_remove">Remove</string>
+    <string name="start_here_on_main">Play</string>
+    <string name="play_queue_stream_detail">Details</string>
+
+    <!-- Main service -->
+    <string name="soundcloud" translatable="false">SoundCloud</string>
+
+    <!-- Limit mobile data usage  -->
+    <string name="limit_data_usage_none_description">No limit</string>
+    <string name="limit_mobile_data_usage_value" translatable="false">@string/limit_data_usage_none_key</string>
+    <string-array name="limit_data_usage_description_list">
+        <item>@string/limit_data_usage_none_description</item>
+        <item>1080p60</item>
+        <item>1080p</item>
+        <item>720p60</item>
+        <item>720p</item>
+        <item>480p</item>
+        <item>360p</item>
+        <item>240p</item>
+        <item>144p</item>
+    </string-array>
+
+    <string name="caption_auto_generated">Auto-generated</string>
+
+    <!-- Settings -->
+    <string name="url_not_supported_toast">URL not supported</string>
+    <string name="best_resolution">Best resolution</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Common strings -->
+    <string name="msg_nothing">Nothing in %s</string>
+    <string name="done">Done</string>
+    <string name="dialog_warning_title">Warning</string>
+    <string name="unknown_content">[Unknown]</string>
+    <string name="cancel">Cancel</string>
+    <string name="share">Share</string>
+    <string name="retry">Retry</string>
+    <string name="create">Create</string>
+
+    <string name="the_app_is_under_maintenance">Application is under maintenance</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+
+    <!-- reCaptcha -->
+    <string name="title_activity_recaptcha">reCAPTCHA challenge</string>
+    <string name="subtitle_activity_recaptcha">Press \"Done\" to bypass reCAPTCHA</string>
+    <string name="recaptcha_request_toast">reCAPTCHA challenge requested</string>
+
+    <!-- Msg -->
+    <string name="msg_delete_successfully">Deleted successfully</string>
+    <string name="no_results">No results</string>
+    <string name="delete_item_search_history">Do you want to delete this item from search history?</string>
+
+    <!-- Error strings -->
+    <string name="sorry_string">We are working to update new features. Please restart the application or use it in the next hours. Thank you!</string>
+    <string name="error_snackbar_message">Sorry, some errors occurred.</string>
+    <string name="error_snackbar_action">REPORT</string>
+    <string name="general_error">Error</string>
+    <string name="network_error">No internet connection</string>
+    <string name="no_network">You are offline</string>
+    <string name="youtube_signature_decryption_error">Could not decrypt video URL signature</string>
+    <string name="parsing_error">Could not parse website</string>
+    <string name="content_not_available">Content not available</string>
+    <string name="app_ui_crash">App/UI crashed</string>
+    <string name="player_stream_failure">Could not play this song</string>
+    <string name="player_unrecoverable_failure">Unrecoverable player error occurred</string>
+    <string name="player_recoverable_failure">Recovering from player error</string>
+    <string name="content_not_supported">This content is not yet supported by yMusic.\n\nIt will hopefully be supported in a future version.</string>
+    <string name="show_age_restricted_content_title">Age-restricted content</string>
+    <string name="show_age_restricted_content_summary">Sometimes content doesn\'t violate YouTube\'s policies, but it may not be appropriate for viewers under 18.</string>
+    <string name="video_is_age_restricted">This video may be inappropriate for some users.\n\nTo watch this video, please disable Age-restricted content from settings.</string>
+    <string name="youtube_restricted_mode_title">Restricted mode</string>
+    <string name="youtube_restricted_mode_summary">This helps hide potentially mature videos. No filter is 100% accurate. This setting only applies to this app on this device.</string>
+
+    <string name="aw_snap">Aw, snap !</string>
+    <string name="click_here_to_retry">Click here to retry.</string>
+    <string name="search_your_music_here">Search your music here…</string>
+    <string name="search_music">Search music…</string>
+    <string name="search_title">Search</string>
+    <string name="download_title">Downloads</string>
+    <string name="songs_title">Songs</string>
+    <string name="loading">Loading…</string>
+    <string name="tracks">Tracks</string>
+    <string name="users">Users</string>
+    <string name="please_wait_while_we_re_getting_the_link">Processing download…</string>
+    <string name="download_not_supported_url_msg">This song is unavailable right now.\nPlease try another song!</string>
+    <string name="download_not_supported_url_title">Error</string>
+
+    <string name="top50">Top 50</string>
+    <string name="new_and_hot">New &amp; Hot</string>
+
+    <!-- download -->
+    <string name="download">Download</string>
+    <string name="permission_denied">Action denied by the system</string>
+    <string name="missions_header_finished">Completed</string>
+    <string name="missions_header_pending">Pending</string>
+    <string name="paused">paused</string>
+    <string name="queued">queued</string>
+    <string name="post_processing">post-processing</string>
+    <string name="recovering">recovering</string>
+    <string name="enqueue">Queue</string>
+    <string name="missing_file">File moved or deleted</string>
+    <string name="downloads_maximum_retry" translatable="false">downloads_max_retry</string>
+    <string name="downloads_maximum_retry_default" translatable="false">3</string>
+    <string name="downloads_cross_network" translatable="false">cross_network_downloads</string>
+    <string name="downloads_queue_limit" translatable="false">downloads_queue_limit</string>
+    <!-- download notifications -->
+    <string name="download_finished">Download completed</string>
+    <string name="download_finished_more">%s downloads completed</string>
+    <!-- dialog about existing downloads -->
+    <string name="generate_unique_name">Generate unique name</string>
+    <string name="overwrite">Overwrite</string>
+    <string name="overwrite_unrelated_warning">A file with this name already exists</string>
+    <string name="overwrite_finished_warning">A downloaded file with this name already exists</string>
+    <string name="overwrite_failed">Cannot overwrite the file</string>
+    <string name="download_already_running">There is a download in progress with this name</string>
+    <string name="download_already_pending">There is a pending download with this name</string>
+    <!-- message dialog about download error -->
+    <string name="show_error">Show error</string>
+    <string name="error_file_creation">The file can not be created</string>
+    <string name="error_path_creation">The destination folder can not be created</string>
+    <string name="error_permission_denied">Permission denied by the system</string>
+    <string name="error_ssl_exception">Could not establish a secure connection</string>
+    <string name="error_unknown_host">Could not find the server</string>
+    <string name="error_connect_host">Can not connect to the server</string>
+    <string name="error_http_no_content">The server does not send data</string>
+    <string name="error_http_unsupported_range">The server does not accept multi-threaded downloads, retry with @string/msg_threads = 1</string>
+    <string name="error_http_not_found">Not found</string>
+    <string name="error_postprocessing_failed">Post-processing failed</string>
+    <string name="error_postprocessing_stopped">ProTube was closed while working on the file</string>
+    <string name="error_insufficient_storage">No space left on device</string>
+    <string name="error_progress_lost">Progress lost, because the file was deleted</string>
+    <string name="error_timeout">Connection timeout</string>
+    <string name="error_download_resource_gone">Cannot recover this download</string>
+    <string name="clear_download_history">Clear download history</string>
+    <string name="confirm_prompt">Do you want to delete all downloaded files?</string>
+    <string name="delete_downloaded_files">Delete downloaded files</string>
+    <string name="deleted_downloads">Deleted %1$d downloads</string>
+    <string name="stop">Stop</string>
+    <string name="max_retry_msg">Maximum retries</string>
+    <string name="max_retry_desc">Maximum number of attempts before canceling the download</string>
+    <string name="start_downloads">Start downloads</string>
+    <string name="pause_downloads">Pause downloads</string>
+    <string name="msg_wait">Please wait…</string>
+    <string name="no_streams_available_download">No streams available to download</string>
+    <string name="undo">Undo</string>
+    <string name="could_not_setup_download_menu">Could not start download</string>
+    <string name="video">Video</string>
+    <string name="audio">Audio</string>
+    <string name="save_to_device">Save to device</string>
+    <string name="show_info">Show info</string>
+    <string name="file_name">File name</string>
+    <string name="toast_no_player">No app installed to play this file</string>
+    <string name="msg_running">yMusic Downloading</string>
+    <string name="msg_running_detail">Tap to see details</string>
+
+    <!-- Missions -->
+    <string name="start">Start</string>
+    <string name="pause">Pause</string>
+    <string name="view">Play</string>
+    <string name="download_start">Download in progress</string>
+    <string name="download_complete">Download complete</string>
+    <string name="download_paused">Download paused</string>
+    <string name="download_failed">Download failed</string>
+    <string name="download_cancelled">Download cancelled</string>
+    <string name="download_successfully">Download successfully</string>
+    <string name="no_songs_here">No songs.</string>
+    <string name="list_is_currently_empty_click_here_to_retry">List is currently empty. Click here to retry.</string>
+    <string name="delete">Delete</string>
+    <string name="clear_all">Clear all</string>
+    <string name="clear_all_msg">Are you sure you want to clear all tracks?</string>
+    <string name="next_up">Next up</string>
+    <string name="play_queue">Play queue</string>
+    <string name="loading_title">Loading</string>
+    <string name="minimize_player">Minimize player</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="subscribed">Subscribed</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="artist">Author:</string>
+
+    <string name="setting_rate_me_now">Rate app</string>
+    <string name="setting_tell_your_friend">Tell your friend</string>
+    <string name="setting_feedback">Feedback</string>
+    <string name="setting_telegram">Join our Telegram channel</string>
+    <string name="setting_telegram_summary">To get latest updates, join now!</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_version_name">Version</string>
+    <string name="share_dialog_title">Share with</string>
+    <string name="feedback_message">Please give us some feedback to improve the app better:\n</string>
+    <string name="msg_no_apps">No apps can do perform this action</string>
+
+    <string name="rate_app_dis">Please support the developer by rate this app and left a review.</string>
+    <string name="rating_dialog_maybe_later">Maybe later</string>
+    <string name="write_your_feedback_here">Write your feedback here…</string>
+    <string name="feedback_button">Send Feedback</string>
+    <string name="feedback_send">Send</string>
+    <string name="please_enter_your_feedback">Please enter your feedback!</string>
+    <string name="send_email_title">Send email</string>
+    <string name="are_you_sure_to_exit">Are you sure to exit?</string>
+    <string name="history">History</string>
+
+    <string name="new_version_message">You are using an older version of the app which might not function correctly.\n\nPlease update your app from the Google Play Store.</string>
+    <string name="new_version_update">Update Now</string>
+    <string name="new_version_later">Later</string>
+    <string name="check_updates">Check Updates</string>
+    <string name="downloading_the_new_version">Downloading the new version…\nPlease don\'t close the app!</string>
+    <string name="checking_the_new_version">Checking the new version…</string>
+    <string name="app_updates">App Updates</string>
+    <string name="current_version">Current version: %s</string>
+    <string name="new_version">New version: %s</string>
+    <string name="you_are_download_the_latest_version">You are using the latest version.</string>
+
+    <string name="client_id">1071001978057-cg2batmu60jbn5fgrqn75b08fnhop4a6.apps.googleusercontent.com</string>
+    <string name="client_secret">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</string>
+    <string name="login_success">Login successfully</string>
+
+    <string name="sign_out">Sign out</string>
+    <string name="sign_up">Sign up</string>
+    <string name="account_info">Account info</string>
+    <string name="account">Account</string>
+    <string name="special_features_msg">To download mp3 songs for offline, you have to sign in your gmail account.</string>
+    <string name="special_features_title">Special features</string>
+    <string name="sign_up_msg">To download songs, please create an account first.\nGo to settings > Account > Sign up.\nStart downloading… Enjoy!</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="no_lyrics_found">No lyrics found.</string>
+    <string name="check_internet_connection">Check Internet connection</string>
+    <string name="music">Music</string>
+    <string name="searching">Searching…</string>
+    <string name="create_playlist">Create Playlist</string>
+    <string name="rename">Rename</string>
+    <string name="add_to_playlist">Add to Playlist</string>
+
+</resources>

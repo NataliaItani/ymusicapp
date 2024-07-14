@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:layout="@layout/settings_category_header_layout"
+        android:title="@string/account"
+        app:isPreferenceVisible="false">
+
+        <Preference
+            android:icon="@drawable/ic_account_circle_dark_24dp"
+            android:key="@string/sign_up_key"
+            android:title="@string/sign_up" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/settings_category_header_layout"
+        android:title="@string/theme_title">
+
+        <SwitchPreference
+            android:icon="@drawable/ic_dark_mode"
+            android:key="@string/dark_theme_key"
+            android:title="@string/dark_theme_title" />
+
+        <!--<Preference
+            android:icon="@drawable/ic_brush"
+            android:key="@string/color_theme_key"
+            android:title="@string/color_theme_title" />-->
+        <Preference
+            android:icon="@drawable/ic_brush"
+            android:key="@string/color_theme_key"
+            android:title="@string/color_theme_title"
+            app:widgetLayout="@layout/color_theme_badge_layout"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:layout="@layout/settings_category_header_layout"
+        android:title="@string/title_activity_about">
+
+        <Preference
+            android:icon="@drawable/ic_rate_dark_24dp"
+            android:key="@string/rate_me_now"
+            android:title="@string/setting_rate_me_now" />
+
+        <Preference
+            android:icon="@drawable/ic_share_dark_24dp"
+            android:key="@string/tell_your_friend"
+            android:title="@string/setting_tell_your_friend" />
+
+        <Preference
+            android:icon="@drawable/ic_feedback_dark_24dp"
+            android:key="@string/feedback"
+            android:title="@string/setting_feedback" />
+
+        <Preference
+            android:icon="@drawable/ic_telegram"
+            android:key="@string/telegram"
+            android:title="@string/setting_telegram"
+            app:summary="@string/setting_telegram_summary"/>
+
+        <Preference
+            android:icon="@drawable/ic_info_dark_24dp"
+            android:key="@string/version_name"
+            android:title="@string/title_version_name" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

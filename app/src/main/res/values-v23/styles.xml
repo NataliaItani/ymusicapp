@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr/toolbarTextColor</item>
+        <item name="android:subtitleTextColor">?attr/toolbarTextColor</item>
+        <item name="subtitleTextColor">?attr/toolbarTextColor</item>
+    </style>
+</resources>

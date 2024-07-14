@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.annimon:stream:1.2.2" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.annimon/stream/1.2.2/2bb4ee9767a36d07a575af756f65b50fdafe6696/stream-1.2.2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.annimon/stream/1.2.2/fd6c6fe12a7ebb4f4b5572880ca01d11dbab7eeb/stream-1.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.annimon/stream/1.2.2/19190953196306e5e1563420e009ba8a70671810/stream-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

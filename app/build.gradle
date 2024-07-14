@@ -1,0 +1,258 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+
+    dependencies {
+
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.firebase.crashlytics'
+
+repositories {
+    maven { url 'https://maven.google.com' }
+}
+
+android {
+    compileSdkVersion 31
+    buildToolsVersion '30.0.3'
+    flavorDimensions 'default'
+
+    defaultConfig {
+        applicationId "io.ymusic.app"
+        minSdkVersion 23 // Android 6.0
+        targetSdkVersion 31
+
+        // Needs to be increased when uploading to playstore
+        versionName "1.0.3"
+        versionCode 4
+
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled = true
+    }
+
+    signingConfigs {
+
+        release {
+            storeFile file("../signing/release.jks")
+            storePassword "ezmusic"
+            keyAlias "ezmusic"
+            keyPassword "ezmusic"
+        }
+    }
+
+    buildTypes {
+        debug {
+            firebaseCrashlytics {
+                // If you don't need crash reporting for your debug build,
+                // you can speed up your build by disabling mapping file uploading.
+                mappingFileUploadEnabled false
+//                strippedNativeLibsDir "build/ndklibs/obj"
+                unstrippedNativeLibsDir "build/ndklibs/libs"
+            }
+        }
+        release {
+            // Enables code shrinking, obfuscation, and optimization for only
+            // your project's release build type.
+            //minifyEnabled true
+
+            // Enables resource shrinking, which is performed by the
+            // Android Gradle plugin.
+            //shrinkResources true
+
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            firebaseCrashlytics {
+                nativeSymbolUploadEnabled true
+//                strippedNativeLibsDir "build/ndklibs/obj"
+                unstrippedNativeLibsDir "build/ndklibs/libs"
+            }
+        }
+    }
+
+    productFlavors {
+        develop {
+            resConfig("xxhdpi")
+        }
+        production {
+
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    compileOptions {
+        // Flag to enable support for the new language APIs
+        coreLibraryDesugaringEnabled true
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+        encoding 'utf-8'
+    }
+
+    // speed up builds, pass Compiler Command-line Options: -PdevBuild
+    if (project.hasProperty('devBuild')) {
+
+        // disable splits
+        splits.abi.enable = false
+        splits.density.enable = false
+
+        // disable PNG crunching
+        aaptOptions.cruncherEnabled = false
+    }
+
+    // enable language, density, and abi configuration splits
+    bundle {
+        language {
+            enableSplit = true
+        }
+        density {
+            enableSplit = true
+        }
+        abi {
+            enableSplit = true
+        }
+    }
+
+    configurations {
+        all*.exclude group: 'com.google.guava', module: 'listenablefuture'
+    }
+}
+
+ext {
+    exoPlayerVersion = '2.11.8'
+    roomVersion = '2.2.5'
+    icepickVersion = '3.2.0'
+}
+dependencies {
+
+    // Originally in NewPipeExtractor
+    implementation 'com.github.TeamNewPipe:NewPipeExtractor:340095515d45ecbee576872c7198992ebd8e4f08'
+    implementation "com.github.TeamNewPipe:nanojson:1d9e1aea9049fc9f85e68b43ba39fe7be1c1f751"
+    implementation "org.jsoup:jsoup:1.15.3"
+
+    // androidx
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.legacy:legacy-preference-v14:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.3'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
+    implementation 'androidx.palette:palette:1.0.0'
+    
+    // circle image view
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //noinspection GradleDependency
+    implementation "com.google.android.exoplayer:exoplayer:$exoPlayerVersion"
+    //noinspection GradleDependency
+    implementation "com.google.android.exoplayer:extension-mediasession:$exoPlayerVersion"
+    
+    // retrofit2
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.1'
+    //noinspection GradleDependency
+    implementation(platform("com.squareup.okhttp3:okhttp-bom:4.10.0"))
+    implementation("com.squareup.okhttp3:logging-interceptor")
+    //noinspection GradleDependency
+    implementation("com.squareup.okhttp3:okhttp")
+
+    // rxjava
+    implementation 'io.reactivex:rxjava:1.3.8'
+    implementation 'com.artemzin.rxjava:proguard-rules:1.3.3.0'
+    implementation 'io.reactivex:rxandroid:1.2.1'
+    
+    // rxjava2
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.20'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    
+    // rxbinding2
+    implementation 'com.jakewharton.rxbinding2:rxbinding:2.2.0'
+
+    //noinspection GradleDependency
+    implementation "androidx.room:room-runtime:$roomVersion"
+    //noinspection GradleDependency
+    implementation "androidx.room:room-rxjava2:$roomVersion"
+    annotationProcessor "androidx.room:room-compiler:$roomVersion"
+
+    implementation "frankiesardo:icepick:$icepickVersion"
+    annotationProcessor "frankiesardo:icepick-processor:$icepickVersion"
+
+    // google services
+    implementation 'com.google.android.gms:play-services-ads:20.5.0'
+    implementation 'com.google.android.gms:play-services-base:18.0.1'
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+    implementation 'com.google.android.gms:play-services-appset:16.0.2'
+    implementation 'com.google.android.gms:play-services-auth:20.1.0'
+
+    // Applovin ads
+    // Don't upgrade version, it conflicts with exoplayer
+    implementation 'com.applovin:applovin-sdk:11.2.1'
+    // Google ids for ads
+    implementation 'com.google.android.gms:play-services-ads-identifier:18.0.1'
+
+    // facebook
+    implementation 'com.google.ads.mediation:facebook:6.8.0.0'
+    implementation 'com.facebook.android:facebook-android-sdk:12.2.0'
+
+    // Add the Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:18.2.8'
+
+    // firebase
+    implementation 'com.google.firebase:firebase-core:20.1.0'
+    implementation 'com.google.firebase:firebase-config:21.0.1'
+    // Declare the dependency for the Firebase Authentication library
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+
+    // glide
+    //noinspection GradleDependency
+    implementation 'com.github.bumptech.glide:glide:3.8.0'
+    implementation 'com.github.bumptech.glide:okhttp3-integration:1.5.0'
+    
+    // image loader
+    implementation 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+
+    // butterknife
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+
+    // stream java8
+    implementation 'com.annimon:stream:1.2.2'
+
+    // in-app review
+    implementation 'com.google.android.play:core:1.10.3'
+
+    implementation 'com.github.kabouzeid:app-theme-helper:1.3.10'
+    implementation 'com.github.kabouzeid:AndroidSlidingUpPanel:6'
+    implementation 'com.afollestad.material-dialogs:core:0.9.6.0'
+    implementation 'com.afollestad.material-dialogs:commons:0.9.6.0'
+    implementation 'com.afollestad:material-cab:0.1.12'
+    implementation('com.h6ah4i.android.widget.advrecyclerview:advrecyclerview:1.0.0@aar') {
+        transitive = true
+    }
+    implementation 'me.zhanghai.android.materialprogressbar:library:1.6.1'
+
+    // Import the BoM for the Firebase platform
+    implementation platform('com.google.firebase:firebase-bom:26.1.1')
+
+    // Declare the dependency for the Realtime Database library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-database'
+
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:1.1.5'
+
+    implementation 'com.google.guava:guava:27.0.1-android'
+
+    // Dynamic Theme
+    implementation 'com.dolatkia:animated-theme-manager:1.1.4'
+}
+apply plugin: 'com.google.gms.google-services'

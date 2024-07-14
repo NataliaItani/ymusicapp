@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.dolatkia:animated-theme-manager:1.1.4@aar" external-system-id="GRADLE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/8a1a0b15832f4a1af3678e60988b4e06/transformed/jetified-animated-theme-manager-1.1.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/8a1a0b15832f4a1af3678e60988b4e06/transformed/jetified-animated-theme-manager-1.1.4/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dolatkia/animated-theme-manager/1.1.4/9d96e1044f1579ca83450fc4e3058249ec4ce92a/animated-theme-manager-1.1.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.dolatkia/animated-theme-manager/1.1.4/8a3b103b820f403fff2d01b4058f9b6b4e0ea774/animated-theme-manager-1.1.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

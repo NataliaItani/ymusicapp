@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678891736421",
+    "project_id": "temporal-tiger-409915",
+    "storage_bucket": "temporal-tiger-409915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678891736421:android:71baf205c5df08dea4e58c",
+        "android_client_info": {
+          "package_name": "io.ymusic.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxGHwCvGL7oqxdZ-PGYPXojii8u3VXbEo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

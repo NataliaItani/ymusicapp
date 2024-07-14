@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="progress_container_height">20dp</dimen>
+    <dimen name="fab_media_controller_container_height">120dp</dimen>
+    <dimen name="media_controller_container_height">104dp</dimen>
+
+    <dimen name="toolbar_scrim_height">168dp</dimen>
+
+    <dimen name="status_bar_padding">24dp</dimen>
+
+    <dimen name="card_elevation">2dp</dimen>
+
+    <dimen name="pause_bar_width">5dp</dimen>
+    <dimen name="pause_bar_distance">4dp</dimen>
+    <dimen name="pause_bar_height">14dp</dimen>
+
+    <dimen name="notification_big_image_size">128dp</dimen>
+    <dimen name="app_widget_card_radius">2dp</dimen>
+    <dimen name="app_widget_card_image_size">56dp</dimen>
+    <dimen name="app_widget_card_min_width">250dp</dimen>
+    <dimen name="app_widget_card_min_height">40dp</dimen>
+    <dimen name="app_widget_card_buttons_width">128dp</dimen>
+
+    <integer name="default_list_columns">1</integer>
+    <integer name="default_list_columns_land">2</integer>
+
+    <integer name="max_columns">4</integer>
+    <integer name="max_columns_land">6</integer>
+
+    <dimen name="default_item_margin">16dp</dimen>
+</resources>

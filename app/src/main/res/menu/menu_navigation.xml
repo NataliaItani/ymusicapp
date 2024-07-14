@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_trending"
+        android:icon="@drawable/ic_trending_dark_24dp"
+        android:title="@string/trending" />
+
+    <item
+        android:id="@+id/navigation_search"
+        android:icon="@drawable/ic_search_dark_24dp"
+        android:title="@string/search_title" />
+
+    <item
+        android:id="@+id/navigation_songs"
+        android:icon="@drawable/ic_download_dark_24dp"
+        android:title="@string/download_title" />
+
+    <item
+        android:id="@+id/navigation_subs"
+        android:icon="@drawable/ic_library_music_dark_24dp"
+        android:title="@string/library" />
+
+</menu>

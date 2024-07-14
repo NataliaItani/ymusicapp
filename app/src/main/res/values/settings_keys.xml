@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources translatable="false">
+    <string name="current_service_key" translatable="false">service</string>
+    <string name="default_service_value" translatable="false">@string/soundcloud</string>
+
+    <!-- Key values -->
+    <string name="download_path_audio_key" translatable="false">download_path_audio</string>
+
+    <string name="auto_queue_key" translatable="false">auto_queue_key</string>
+
+    <string name="default_resolution_key" translatable="false">default_resolution</string>
+    <string name="default_resolution_value" translatable="false">720p</string>
+    <string name="show_higher_resolutions_key" translatable="false">show_higher_resolutions</string>
+    <string name="default_popup_resolution_key" translatable="false">default_popup_resolution</string>
+    <string name="default_popup_resolution_value" translatable="false">480p</string>
+    <string name="best_resolution_key" translatable="false">best_resolution</string>
+
+    <string name="video_mp4_key" translatable="false">video_mp4</string>
+    <string name="video_webm_key" translatable="false">video_webm</string>
+    <string name="video_3gp_key" translatable="false">video_3gp</string>
+    <string name="default_video_format_key" translatable="false">default_video_format</string>
+    <string name="default_video_format_value" translatable="false">@string/video_mp4_key</string>
+
+    <string name="default_audio_format_key" translatable="false">default_audio_format</string>
+    <string name="default_audio_format_value" translatable="false">@string/audio_m4a_key</string>
+    <string name="audio_m4a_key" translatable="false">audio_m4a</string>
+    <string name="audio_webm_key" translatable="false">audio_webm</string>
+    <string name="last_orientation_landscape_key" translatable="false">last_orientation_landscape_key</string>
+
+    <!-- THEMES -->
+    <string name="theme_key" translatable="false">theme</string>
+    <string name="light_theme_key" translatable="false">light_theme</string>
+    <string name="dark_theme_key" translatable="false">dark_theme</string>
+    <string name="color_theme_key" translatable="false">color_theme</string>
+    <string name="default_theme_value" translatable="false">@string/light_theme_key</string>
+    <string-array name="theme_values_list" translatable="false">
+        <item>@string/light_theme_key</item>
+        <item>@string/dark_theme_key</item>
+    </string-array>
+    <string-array name="theme_description_list" translatable="false">
+        <item>@string/light_theme_title</item>
+        <item>@string/dark_theme_title</item>
+    </string-array>
+
+
+    <!-- Content & History -->
+    <string name="show_search_suggestions_key" translatable="false">show_search_suggestions</string>
+    <string name="enable_search_history_key" translatable="false">enable_search_history</string>
+    <string name="enable_watch_history_key" translatable="false">enable_watch_history</string>
+
+    <!-- Limit mobile data usage  -->
+    <string name="limit_mobile_data_usage_key" translatable="false">limit_mobile_data_usage</string>
+    <string name="limit_data_usage_none_key" translatable="false">limit_data_usage_none</string>
+
+    <!-- reCaptcha -->
+    <string name="recaptcha_cookies_key" translatable="false">recaptcha_cookies_key</string>
+
+    <string name="notification_slot_0_key" translatable="false">notification_slot_0_key</string>
+    <string name="notification_slot_1_key" translatable="false">notification_slot_1_key</string>
+    <string name="notification_slot_2_key" translatable="false">notification_slot_2_key</string>
+    <string name="notification_slot_3_key" translatable="false">notification_slot_3_key</string>
+    <string name="notification_slot_4_key" translatable="false">notification_slot_4_key</string>
+
+    <string name="notification_slot_compact_0_key" translatable="false">notification_slot_compact_0_key</string>
+    <string name="notification_slot_compact_1_key" translatable="false">notification_slot_compact_1_key</string>
+    <string name="notification_slot_compact_2_key" translatable="false">notification_slot_compact_2_key</string>
+
+    <string name="last_resize_mode" translatable="false">last_resize_mode</string>
+    <string name="playback_speed_key" translatable="false">playback_speed_key</string>
+    <string name="playback_pitch_key" translatable="false">playback_pitch_key</string>
+    <string name="playback_skip_silence_key" translatable="false">playback_skip_silence_key</string>
+
+    <!-- FileName Downloads  -->
+    <string name="settings_file_charset_key" translatable="false">file_rename</string>
+    <string name="settings_file_replacement_character_key" translatable="false">file_replacement_character</string>
+    <string name="default_file_charset_value" translatable="false">@string/charset_most_special_characters_value</string>
+    <string name="charset_letters_and_digits_value" translatable="false">CHARSET_LETTERS_AND_DIGITS</string>
+    <string name="charset_most_special_value" translatable="false">CHARSET_MOST_SPECIAL</string>
+
+    <!--About-->
+    <string name="rate_me_now" translatable="false">rate_me_now</string>
+    <string name="tell_your_friend" translatable="false">tell_your_friend</string>
+    <string name="feedback" translatable="false">feedback</string>
+    <string name="telegram" translatable="false">telegram_channel</string>
+    <string name="privacy_policy" translatable="false">privacy_policy</string>
+    <string name="version_name" translatable="false">version_name</string>
+    <string name="sign_up_key" translatable="false">sign_up_key</string>
+
+</resources>

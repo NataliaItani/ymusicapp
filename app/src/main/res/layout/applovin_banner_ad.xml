@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.applovin.mediation.ads.MaxAdView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:maxads="http://schemas.applovin.com/android/1.0"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maxAdView"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/banner_height"
+    maxads:adUnitId="@string/applovin_banner_ad"
+    tools:ignore="MissingDefaultResource" />

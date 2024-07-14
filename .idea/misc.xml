@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ebeledike/.gradle/caches/transforms-3/01f82dc850b5207f5931d224383f5c82/transformed/jetified-app-theme-helper-1.3.10/res/layout/ate_preference_custom.xml" value="0.22" />
+        <entry key="..\:/Users/ebeledike/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_expandable_list_item_1.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/AppData/Local/Android/Sdk/platforms/android-31/data/res/layout/simple_list_item_2.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/background_bottom_sheet_dialog.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/background_button_lyrics.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/background_dialog_signout.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/background_launcher.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/bg_ad.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/bg_circle.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/bg_cursor_edit_text.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/bg_gradient_color.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/bg_gradient_color2.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/bg_tab_report.xml" value="0.22205128205128205" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_arrow_down.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_back_dark_24dp.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_baseline_add.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_brush.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_bug_fixing.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_dark_mode.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_engineer.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_fiber_manual_record_dark_24dp.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_happy_music.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_info_dark_24dp.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_lyrics_white_24dp.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_minimize_player_dark_24dp.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_minimize_player_white_24dp.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_playlist_add_check_dark.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/ic_telegram.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_0.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_1.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_10.xml" value="0.1" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_11.xml" value="0.1" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_17.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_18.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_19.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_2.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_3.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_4.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_5.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_6.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_7.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_8.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/palette_9.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/rate_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/selector_tab_report.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/toolbar_gradient.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/drawable/toolbar_shadow_dark.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout-sw300dp/applovin_banner_ad.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout-sw300dp/color_theme_badge_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout-sw300dp/music_player.xml" value="0.5025" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout-sw330dp/music_player.xml" value="0.27936066712995133" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout-sw480dp/music_player.xml" value="0.3405909797822706" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout-v29/layout_main_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/activity_main_content.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/activity_settings.xml" value="0.47962962962962963" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/activity_song.xml" value="0.25" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/applovin_banner_ad.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/banner_ad.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/color_theme_badge_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/detail_overlay_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/dialog_check_updates.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/dialog_color_themes.xml" value="0.22" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/dialog_lyrics.xml" value="0.25" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_album_cover.xml" value="0.41875" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_card_player.xml" value="0.12" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_card_player_playback_controls.xml" value="0.32756489493201485" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_download.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_library.xml" value="0.25" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_local_search.xml" value="0.25" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_player_album_cover.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_playlists.xml" value="0.33" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_search.xml" value="0.22" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_search_main.xml" value="0.2" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_song2.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_songs.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_songs2.xml" value="0.22" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_songs_main.xml" value="0.24554294975688817" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_subscription.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_top50.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_trending.xml" value="0.25" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/fragment_video_detail2.xml" value="0.22" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/layout_dialog_fullscreen.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/layout_dialog_getting_link.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/layout_empty_view.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/layout_main_toolbar.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/layout_new_playlist.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/layout_play_queue_bottom_sheet.xml" value="0.33" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/layout_toolbar.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/list_download_item.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/list_empty_view.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/list_search_empty_view.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/list_song_item.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/list_stream_item.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/local_item_list.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/music_player.xml" value="0.7913385826771654" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/native_ad_list_header.xml" value="0.18" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/native_ad_small.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/network_error.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/notification.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/shadow_statusbar_toolbar.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/sliding_music_panel_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/layout/toolbar_search_layout.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/menu/menu_item_playing_queue_song.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/menu/menu_item_song.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/menu/menu_media_selection.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/menu/menu_navigation.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/menu/menu_player.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/menu/menu_playlist.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/menu/menu_recaptcha.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/menu/menu_settings.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-Java-Android-music-app/app/src/main/res/xml/app_settings.xml" value="0.23480947476828012" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-music-app-main/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-music-app-main/app/src/main/res/layout/activity_main_content.xml" value="0.209375" />
+        <entry key="..\:/Users/ebeledike/Desktop/Workspace/AndroidStudioProjects/videmak-music-app-main/app/src/main/res/layout/banner_ad.xml" value="0.20205128205128206" />
+      </map>
+    </option>
+  </component>
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+=======
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8.0_202" project-jdk-type="JavaSDK">
+>>>>>>> 94747e522982026248294a8822dbc22c947e06c1
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
