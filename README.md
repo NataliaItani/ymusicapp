@@ -1,2 +1,2 @@
-# videmak-music-non-login music app - Java
+# yMusic Latest App for Android
  Java Music application
